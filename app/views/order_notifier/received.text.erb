@@ -1,0 +1,9 @@
+Dear <%= @order.name %>
+
+We are glad to see you in our Pragmatic Cat store and we thank you for your purchase.
+
+You purchased the following cat:
+
+<%= render @order.line_items -%>
+
+When your order will be done, we will send you another message to your email!
