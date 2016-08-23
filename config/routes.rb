@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   controller :sessions do
     get 'login' => :new
     post 'login' => :create
-    get 'logout' => :destroy              # fishy moment, check it later!
+    delete 'logout' => :destroy              # fishy moment, check it later!
   end
 
   # get 'sessions/create'

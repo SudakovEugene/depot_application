@@ -41,9 +41,15 @@ class UsersController < ApplicationController
   end
 
   def destroy
-    @user.destroy
+    begin
+      @user.destroy
+      flash[:notice] = "User #{@user.name} has been removed"
+    rescue                                                                 #StandardError => e
+      flash[:notice] = "The last user cant be removed. Be careful!"        #e.message
+    end
+
     respond_to do |format|
-      format.html { redirect_to users_url, notice: 'User was successfully destroyed.' }
+      format.html { redirect_to users_url}
       format.json { head :no_content }
     end
   end
