@@ -16,8 +16,8 @@
 passenger.3000*
 
 # Ignore application configuration.
-# /config/database.yml
-/config/secrets.yml
+/config/database.yml
+# /config/secrets.yml
 /config/sidekiq.yml
 /config/chewy.yml
 

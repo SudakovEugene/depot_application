@@ -3,4 +3,4 @@ This online store I wrote during working on the exercises from the "Agile Web De
 with Rails 4" book. The store includes a catalog, shopping cart,
 the ability to create an order, sending a message as soon as the order was created,
 authentication of users and authorization of administrators with significantly greater
-rights than regular users have.
+rights than regular users have. It should look like https://time-is-meow.herokuapp.com 

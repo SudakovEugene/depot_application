@@ -1,15 +1,12 @@
 development:
-  adapter: postgresql
-  database: depot_development
-  username: developer
-  password: developer
+  adapter: sqlite3
+  database: db/development.sqlite3
   pool: 5
   timeout: 5000
+
 test:
-  adapter: postgresql
-  database: depot_test
-  username: developer
-  password: developer
+  adapter: sqlite3
+  database: db/test.sqlite3
   pool: 5
   timeout: 5000
 
