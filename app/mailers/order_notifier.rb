@@ -4,7 +4,7 @@ class OrderNotifier < ApplicationMailer
   def received(order)
     @order = order
 
-    mail to: order.email, subject: "Accepting of purchase at Pragmatic Cat store"
+    mail to: order.email, subject: "Thank you for your purchase!"
   end
 
   def shipped(order)
