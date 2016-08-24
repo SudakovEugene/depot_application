@@ -47,3 +47,5 @@ npm-debug.log
 #/app/assets/fonts/icons.eot
 #/app/assets/fonts/icons.ttf
 #/app/assets/fonts/icons.woff
+# Ignore application configuration
+/config/application.yml

@@ -4,6 +4,7 @@ require File.expand_path('../application', __FILE__)
 # Initialize the Rails application.
 Rails.application.initialize!
 
+=begin
 
 Rails.application.configure do
   config.action_mailer.delivery_method = :smtp
@@ -17,3 +18,5 @@ Rails.application.configure do
     enable_starttls_auto: true
 }
 end
+
+=end
