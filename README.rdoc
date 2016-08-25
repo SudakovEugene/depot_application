@@ -1,6 +1,7 @@
-
-I have written this online store while doing some exercises from the "Agile Web Development
-with Rails 4" book. The store includes a catalog, shopping cart,
-the ability to create an order, sending a message as soon as the order is executed,
-authentication of users and authorization of administrators with significantly greater
-rights than regular users have. It should looks like https://time-is-meow.herokuapp.com
+I wrote this online store while doing some exercises from the
+“Agile Web Development with Rails 4” book. The store includes:
+a catalog, shopping cart, RSS channel Atom, the ability to create an order which
+is followed by an automatic notification via email regarding your order,
+authentication of users and authorization for administrators with significantly
+greater rights than regular users have. It should look like https://time-is-meow.herokuapp.com
+For login as admin use next: Login: Test; Password: Test.
